@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <!-- Add your UI components here -->
+
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/baseline_close_24" />
+
+
+    <TextView
+        android:id="@+id/information_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="205dp"
+        android:text="PROJECT SIGN LANGUAGE\n\n
+This app translates Malaysian Sign Language into text and voice\n
+The words that are available are the following:\n
+beliau, yang, pada, dengan, mereka, satu, mempunyai, ini, daripada, panas, perkataa, tetap, apa, dan, boleh, keluar, lain, lain, yang, masa, jika, akan, bagaimana, setiap, memberitahu, tiga, mahu, baik, bermain, kecil, akhir, rumah, membaca, tangan, besar, walaupun, tanah, di sini, tinggi, mengapa,
+lelaki, perubahan, cahaya, tutup, perlu, rumah, gambar, kami, lagi, ibu,
+dunia, berhampiran, diri, bumi, bapa, apa-apa, kerja, mengambil, mendapatkan, hidup,
+di mana, selepas, tahun, persembahan, memberi, di bawah, nama, ayat, berfikir, tolong,
+talian, pusing, punca"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
